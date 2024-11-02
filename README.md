@@ -37,7 +37,7 @@ To set up this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/daniel-portfolio.git
+   git clone https://github.com/Danielkhakbaz/Nextjs-Template
    cd daniel-portfolio
    ```
 
