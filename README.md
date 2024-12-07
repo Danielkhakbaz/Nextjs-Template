@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Template
 
-## Getting Started
+Danial Khakbaz's portfolio built with [Next.js](https://nextjs.org/), showcasing his skills as a Front-end developer with a journey toward becoming a Full-stack developer. This project highlights his ambition for continuous learning and crafting seamless web applications using modern technologies.
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This portfolio website serves as a professional platform to showcase Danial’s work, skills, and personal philosophy on balanced living. It is optimized for performance and utilizes several popular tools and libraries for a smooth, interactive user experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Table of Contents
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Development Scripts](#development-scripts)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features
 
-## Learn More
+- **Responsive Design**: Fully responsive layout with smooth animations.
+- **Interactive Animations**: Seamless transitions powered by Next View Transition.
+- **Tailwind CSS Integration**: Utility-first CSS framework for rapid UI development.
+- **TypeScript Support**: Enhanced type safety and development experience.
+- **Image Optimization**: Efficient image handling with Sharp for performance.
+- **Linting and Formatting**: Code quality maintained with ESLint and Prettier.
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **[Next.js](https://nextjs.org/)** - React framework for server-side rendering and static website generation.
+- **[React](https://reactjs.org/)** - JavaScript library for building user interfaces.
+- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework for rapid UI development.
+- **[TypeScript](https://www.typescriptlang.org/)** - JavaScript with static typing.
+- **[Sharp](https://sharp.pixelplumbing.com/)** - High-performance image processing.
+- **[Knip](https://knip.dev/)** - Tool for managing your Next.js project's file and folder structure.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Installation
 
-## Deploy on Vercel
+To set up this project locally, follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone the repository**:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   git clone https://github.com/Danielkhakbaz/Nextjs-Template
+   cd daniel-portfolio
+   ```
+
+2. **Install dependencies**:
+
+   ```bash
+   yarn
+   ```
+
+3. **Run the development server**:
+
+   ```bash
+   yarn dev
+   ```
+
+4. **Open** [http://localhost:3000](http://localhost:3000) **in your browser to see the project**.
+
+## Development Scripts
+
+Here are some helpful scripts to assist in the development and maintenance of this project:
+
+- `dev`: Runs the app in development mode.
+- `build`: Compiles the app for production.
+- `start`: Starts the production server.
+- `lint`: Lints and fixes files using ESLint.
+- `fix`: Formats files using Prettier.
+- `knip`: Analyzes the project structure and provides suggestions for improvement.
+- `check-prettier`: Checks the code format without making changes.
